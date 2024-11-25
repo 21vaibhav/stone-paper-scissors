@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+main {
+    background-color: aqua; /* Matches body to create seamless red background */
+    min-height: 100vh; /* Ensures the main fills the viewport */
+}
+h1{
+    justify-content: center;
+    background-color: blue;
+    text-align: center;
+    color: aliceblue;
+    height: 5rem;
+    line-height: 5rem;
+}
+.choices
+{
+    display: flex;
+    text-align: center;
+}
+.choice:hover
+{
+    cursor: pointer;
+    background-color: black;
+}
+.choice
+{   margin:1rem;
+    height: 165px;
+    width: 165px;
+   
+    border-radius: 50%;
+    display: flex;
+}
+
+img
+{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.score-board
+{text-align: center;
+justify-content: center;
+display: flex;
+font-size: 2rem;
+gap: 5rem;
+margin-top: 3rem;
+color:black
+}
+.container
+{
+    text-align: center;
+    font-size: 2rem;
+    gap: 5rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+}
+#msg
+{   
+   font-size: 2rem;
+    background-color: black;
+    color: white;
+    display: inline;
+    padding: 5PX;
+}
+
